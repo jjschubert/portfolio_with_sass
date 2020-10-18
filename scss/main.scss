@@ -15,21 +15,49 @@ $section-bg-blue: #F8F9FA;
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
-.nav {
-background: $primary-color;
+
+#navbar {
+    background: $primary-color;
+    position: fixed;
+    top: -75px;
+    height: 75px;
+    display: block;
+    width: 100%;
+    transition: top 0.3s;
     ul {
         color: #fff;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        li {
+            padding: 1em;
+        }
     }
 }
 
  .titleBox {
     @include image-backgrounds('/dist/img/header-trees.jpg');
+    h1 {
+        color: #fff;
+        font-size: 5em;
+        padding: .5em 0em .75em;
+    }
+    h3 {
+        color: #fff;
+        font-size: 3em;
+        padding-bottom: .75em;
+    }
+    button {
+        margin-bottom: 5em;
+    }
 
  }
 
  .main {
-     height: 400px;
+     height: 800px;
  }
 
  .contact {

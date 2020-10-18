@@ -1,14 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
-.nav {
+#navbar {
   background: #004D4D;
+  position: fixed;
+  top: -75px;
+  height: 75px;
+  display: block;
+  width: 100%;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
 }
 
-.nav ul {
+#navbar ul {
   color: #fff;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#navbar ul li {
+  padding: 1em;
 }
 
 .titleBox {
@@ -20,8 +43,24 @@
   background-image: url("/dist/img/header-trees.jpg");
 }
 
+.titleBox h1 {
+  color: #fff;
+  font-size: 5em;
+  padding: .5em 0em .75em;
+}
+
+.titleBox h3 {
+  color: #fff;
+  font-size: 3em;
+  padding-bottom: .75em;
+}
+
+.titleBox button {
+  margin-bottom: 5em;
+}
+
 .main {
-  height: 400px;
+  height: 800px;
 }
 
 .contact {
