@@ -1,0 +1,24 @@
+$primary-color: #004D4D;
+$accent-color: #81a09d;
+$accent-hover: #7a9e9a;
+$section-bg-blue: #F8F9FA;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+background: $primary-color;
+    ul {
+        color: #fff;
+    }
+}
+
+ .title {
+    background-image: url('/dist/img/header-trees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+ }

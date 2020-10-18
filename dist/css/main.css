@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background: #004D4D;
+}
+
+.nav ul {
+  color: #fff;
+}
+
+.title {
+  background-image: url("/dist/img/header-trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: scroll;
+  background-position: center center;
+}
+/*# sourceMappingURL=main.css.map */
