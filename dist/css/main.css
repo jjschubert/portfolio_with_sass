@@ -11,12 +11,26 @@
   color: #fff;
 }
 
-.title {
-  background-image: url("/dist/img/header-trees.jpg");
+.titleBox {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   background-attachment: scroll;
   background-position: center center;
+  background-image: url("/dist/img/header-trees.jpg");
+}
+
+.main {
+  height: 400px;
+}
+
+.contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: scroll;
+  background-position: center center;
+  background-image: url("/dist/img/meadow.jpg");
+  height: 600px;
 }
 /*# sourceMappingURL=main.css.map */
